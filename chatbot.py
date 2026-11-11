@@ -10,11 +10,11 @@ conversation_count = 0
 
 def normalize_input(users_input):
     """
-    cleans the users input by"
-    -  removing extra space
-    -  converting text to lowecase
+    Cleans the user's input by:
+    - Removing extra spaces
+    - Converting text to lowercase
     """
-    return user_input.strip().lower()
+    return users_input.strip().lower()
 
 def show_help():
     "display available commands."
